@@ -1,5 +1,5 @@
 #!/bin/bash
-hostnamectl set-hostname ${server-name}
+hostnamectl set-hostname ${myserver}
 dnf update -y
 dnf install docker -y
 systemctl start docker
